@@ -13,7 +13,7 @@ process fastqc {
         overwrite: true,
         saveAs: { filename -> filename }
 
-    container "biocontainers/fastqc:v0.11.9_cv7"
+    container "biocontainers/fastqc:v0.11.9_cv8"
 
     input:
         tuple val(meta), path(read1), path(read2)
