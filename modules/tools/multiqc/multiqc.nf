@@ -19,7 +19,6 @@ process multiqc {
         path ('fastqc/*')
         path ('trimgalore/fastqc/*')
         path ('trimgalore/*')
-        path ('bwa/*')
         path ('kraken/*')
     
     output:
