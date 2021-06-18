@@ -1,0 +1,3 @@
+sample_id	read1	read2
+Gut1	./fastqs/gut_R1.fastq.gz	./fastqs/gut_R2.fastq.gz
+Skin1	./fastqs/skin_R1.fastq.gz	./fastqs/skin_R2.fastq.gz
