@@ -47,13 +47,13 @@ if (params.help) {
 ////////////////////////////////////////////////////
 /* --              IMPORT MODULES              -- */
 ////////////////////////////////////////////////////
-
+include { Processing } from './modules/main_workflows/processing'
 ////////////////////////////////////////////////////
 /* --           RUN MAIN WORKFLOW              -- */
 ////////////////////////////////////////////////////
 
 // Full
 workflow {
-    include { Processing } from './modules/main_workflows/processing'
+    
     Processing()
 }
